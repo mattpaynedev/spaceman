@@ -41,7 +41,7 @@ If you lose, feel free to play again!
 ### Under the hood:
 Spaceman is designed using vanilla Javascript and the `prompt-sync` package. The prompt-sync package provides an easy way to take command-line input from the user.
 
-The visuals for the games (the spaceship and abductee) are rendered from a JS object, with each rendering stored as as value using the `String.raw` method. The correct visual is displayed based on how many incorrect guesses the player has made.
+The visuals for the game (the spaceship and abductee) are rendered from a JS object, with each rendering stored as as value using the `String.raw` method. The correct visual is displayed based on how many incorrect guesses the player has made.
 
 To track the letters that have been guessed and to check whether a guess is correct, we use two `Set` objects. The `parseWord` function takes the Escape Word and registers each letter in the `wordParser` Set. When a letter is guessed by the player it is added to the `guessedLetters` Set so that we can reject later input if a letter has already been guessed.
 
