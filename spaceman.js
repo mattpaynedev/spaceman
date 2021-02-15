@@ -403,6 +403,9 @@ function guessLetter() {
     } else if (guessedLetters.has(letter)) {
         console.log("\nYou've already guessed that letter! Try again:\n")
         return guessLetter() //If they've guessed the letter already, guess again
+    } else if (alphabet[letter] = undefined) {
+        console.log("\nYou must enter a letter! Try again:\n")
+        return guessLetter() //If they've guessed the letter already, guess again
     } else {
         guessedLetters.add(letter) //add the letter to the set
         return letter //return the letter that was guessed
