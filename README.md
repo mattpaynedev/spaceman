@@ -2,7 +2,7 @@
 
 ---
 
-Spaceman is a console-based Hangman-style game written in Javacript. The goal is to correctly guess the letters in the Escape Word before you are abducted by the aliens.
+Spaceman is a console-based Hangman-style game written in Javascript. The goal is to correctly guess the letters in the Escape Word before you are abducted by the aliens.
 
 ---
 
